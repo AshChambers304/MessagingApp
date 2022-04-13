@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+//Map of base font-sizes based on screen size
+
+$base-font-sizes: (
+  null: 10px,
+  320px: 10px,
+  480px: 12px,
+  640px: 14px,
+  960px: 15px,
+);
+
+:root {
+  //Font-Families
+
+  --ff-default: "Open Sans", sans-serif;
+  --ff-alt: "Lobster", cursive;
+
+  //Font-Sizes
+
+  --fs-xsmall: 0.75rem;
+  --fs-small: 0.85rem;
+  --fs-default: 1rem;
+  --fs-large: 1.5rem;
+  --fs-xlarge: 3rem;
+
+  //Font-Weights
+
+  --fw-light: 300;
+  --fw-bold: 700;
+}
+
+.bold {
+  font-weight: 700;
+}
